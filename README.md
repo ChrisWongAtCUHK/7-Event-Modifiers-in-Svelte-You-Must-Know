@@ -45,3 +45,9 @@ If you have state that's important to retain within a component, consider creati
 import { writable } from 'svelte/store'
 export default writable(0)
 ```
+
+# Notes
+* [7 Event Modifiers in Svelte You Must Know](https://dev.to/tanhauhau/7-event-modifiers-in-svelte-you-must-know-27oc)
+  - 1. preventDefault 
+    + [Blocking default click handling](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault#blocking_default_click_handling)  
+    Toggling a checkbox is the default action of clicking on a checkbox. This example demonstrates how to prevent that from happening
